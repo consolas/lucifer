@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/g"
+	/>
+	<TextView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="雨松MOMO"
+		android:background="#FF0000"
+		android:textColor="#000000"  
+        android:textSize="18dip"  
+	/>
+	<ImageView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/image"
+		android:layout_gravity="bottom"
+	/>
+	<EditText
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="快乐生活每一天喔"
+        android:layout_gravity="bottom"
+	/>
+</FrameLayout>

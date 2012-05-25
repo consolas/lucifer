@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	>
+<LinearLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:gravity="center_horizontal"
+	android:layout_weight="2"
+	>
+	<ImageView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/jay"
+	/>
+	
+	<TextView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="雨松MOMO"
+		android:background="#FF0000"
+		android:textColor="#000000"  
+        android:textSize="18dip"  
+	/>
+	<EditText
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="水平方向"
+	/>
+</LinearLayout>
+
+<LinearLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_weight="1"
+	>
+	
+	<TextView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="雨松MOMO"
+		android:background="#FF0000"
+		android:textColor="#000000"  
+        android:textSize="18dip"  
+	/>
+	<EditText
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="垂直方向"
+	/>
+	<Button
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="雨松MOMO"
+	/>
+	<ImageView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/image"
+	/>
+</LinearLayout>
+</LinearLayout>
+
+ 

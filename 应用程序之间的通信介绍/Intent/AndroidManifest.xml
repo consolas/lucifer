@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="cn.m15.xys"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".ControlActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".HandlerActivity"/>	
+		<activity android:name=".NotificationActivity"/>	
+		<activity android:name=".ShowActivity"/>
+		<activity android:name=".BroadcastActivity"/>
+		<activity android:name=".MyShowActivity"/>
+		
+		<service android:name=".MyService">
+			<intent-filter>
+				<action android:name="cn.m15.xys.MyService"></action>
+			</intent-filter>
+			<intent-filter>
+				<action android:name="send.ok.message" />
+				<action android:name="send.cancle.message" />
+			</intent-filter>
+		</service>
+		
+	<receiver android:name=".MyBootReceiver" >
+       <intent-filter>
+          <action android:name="android.intent.action.BOOT_COMPLETED" />
+      </intent-filter>
+    </receiver>
+		
+    </application>
+    
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+</manifest> 

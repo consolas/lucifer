@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<ImageView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/f"
+		android:layout_x="100dip"
+        android:layout_y="50dip"
+	/>
+	<TextView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="当前坐标点 x = 100dip y = 50 dip"
+		android:background="#FFFFFF"
+		android:textColor="#FF0000"  
+        android:textSize="18dip"  
+      	android:layout_x="50dip"
+        android:layout_y="30dip"
+	/>
+	
+	<ImageView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/h"
+		android:layout_x="50dip"
+        android:layout_y="300dip"
+	/>
+	<TextView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="当前坐标点 x = 50dip y = 300 dip"
+		android:background="#FFFFFF"
+		android:textColor="#FF0000"  
+        android:textSize="18dip"  
+     	android:layout_x="30dip"
+        android:layout_y="280dip"
+	/>
+</AbsoluteLayout>
+
+ 

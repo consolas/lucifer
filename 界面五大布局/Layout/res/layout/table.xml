@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<ImageView
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/g"
+		android:layout_gravity="center"
+	/>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="10dip">
+        <TextView
+            android:text="姓名" 
+            android:gravity="left"
+            />
+        <TextView
+            android:text="电话"
+            android:gravity="right"/>
+    </TableRow>
+   
+    <View
+        android:layout_height="2dip"
+        android:background="#FFFFFF" />
+   
+    <TableRow
+    	android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="10dip">
+        <TextView
+            android:text="雨松" 
+            android:gravity="left"
+            />
+        <TextView
+            android:text="15810463139"
+            android:gravity="right"/>
+    </TableRow>
+    
+    <TableRow
+    	android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="10dip">
+        <TextView
+            android:text="小可爱" 
+            android:gravity="left"
+            />
+        <TextView
+            android:text="15810463139"
+            android:gravity="right"/>
+    </TableRow>
+
+    <TableRow
+    	android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="10dip">
+        <TextView
+            android:text="好伙伴" 
+            android:gravity="left"
+            />
+        <TextView
+            android:text="15810463139"
+            android:gravity="right"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+        >
+        <TextView
+            android:text="姓名" 
+            android:gravity="left"
+            />
+        <TextView
+            android:text="性别"
+            android:gravity="right"/>
+    </TableRow>
+   
+    <View
+        android:layout_height="2dip"
+        android:background="#FFFFFF" />
+   
+    <TableRow
+    	android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+        >
+        <TextView
+            android:text="雨松MOMO" 
+            android:gravity="left"
+            />
+        <TextView
+            android:text="男"
+            android:gravity="right"/>
+    </TableRow>
+    
+    <TableRow
+    	android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="10dip">
+        <TextView
+            android:text="小可爱" 
+            android:gravity="left"
+            />
+        <TextView
+            android:text="女"
+            android:gravity="right"/>
+    </TableRow>
+
+    <TableRow
+    	android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="10dip">
+        <TextView
+            android:text="好伙伴" 
+            android:gravity="left"
+            />
+        <TextView
+            android:text="男"
+            android:gravity="right"/>
+    </TableRow>
+
+</TableLayout>
+
+
+ 

@@ -1,0 +1,4 @@
+在eclipse下查看数据库
+通过windows打开file explore
+当android模拟器启动起来的时候可以在data目录下找到
+ 

@@ -1,0 +1,5 @@
+Adapter是连接后端数据和前端显示的适配器接口，是数据和UI（View）之间一个重要的纽带。在常见的View(ListView,GridView)等地方都需要用到Adapter。
+BaseAdapter是一个抽象类，继承它需要实现较多的方法，所以也就具有较高的灵活性；
+ArrayAdapter支持泛型操作，最为简单，只能展示一行字。
+SimpleAdapter有最好的扩充性，可以自定义出各种效果。
+SimpleCursorAdapter可以适用于简单的纯文字型ListView，它需要Cursor的字段和UI的id对应起来。如需要实现更复杂的UI也可以重写其他方法。可以认为是SimpleAdapter对数据库的简单结合，可以方便地把数据库的内容以列表的形式展示出来。
